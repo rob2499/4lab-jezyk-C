@@ -4,123 +4,74 @@
 int main()
 {
     int tablica[4][10];
-    int a=0;
-    for(a=0;a<10;a++)
-    {
-        tablica[0][a]=1;
-        printf("%d ",tablica[0][a]);
-    }
-    printf("\n");
 
-    for(a=0;a<10;a++)
+    int a,b;
+    for(a=0;a<4;a++)
     {
-        tablica[1][a]=1;
-        printf("%d ",tablica[1][a]);
-    }
-    printf("\n");
-
-    for(a=0;a<10;a++)
-    {
-        tablica[2][a]=1;
-        printf("%d ",tablica[2][a]);
-    }
-    printf("\n");
-
-    for(a=0;a<10;a++)
-    {
-        tablica[3][a]=1;
-        printf("%d ",tablica[3][a]);
+        for(b=0;b<10;b++)
+        {
+            tablica[a][b]=1;
+            printf("%d\t",tablica[a][b]);
+            if(b==9)
+            {
+                printf("\n");
+            }
+        }
     }
     printf("\n\n");
 
     /*-----------------------------------------*/
 
-    for(a=0;a<10;a++)
+    for(a=0;a<4;a++)
     {
-        tablica[0][a]=1;
-        printf("%d ",tablica[0][a]);
-    }
-    printf("\n");
-
-    for(a=0;a<10;a++)
-    {
-        tablica[1][a]=2;
-        printf("%d ",tablica[1][a]);
-    }
-    printf("\n");
-
-    for(a=0;a<10;a++)
-    {
-        tablica[2][a]=3;
-        printf("%d ",tablica[2][a]);
-    }
-    printf("\n");
-
-    for(a=0;a<10;a++)
-    {
-        tablica[3][a]=4;
-        printf("%d ",tablica[3][a]);
+        for(b=0;b<10;b++)
+        {
+            tablica[0][b]=1;
+            tablica[1][b]=2;
+            tablica[2][b]=3;
+            tablica[3][b]=4;
+            printf("%d\t",tablica[a][b]);
+            if(b==9)
+            {
+                printf("\n");
+            }
+        }
     }
     printf("\n\n");
 
     /*-----------------------------------------*/
 
-    for(a=0;a<10;a++)
+    for(a=0;a<4;a++)
     {
-        tablica[0][a]=a+1;
-        printf("%d\t",tablica[0][a]);
-    }
-    printf("\n");
-
-    for(a=0;a<10;a++)
-    {
-        tablica[1][a]=2*a+2;
-        printf("%d\t",tablica[1][a]);
-    }
-    printf("\n");
-
-    for(a=0;a<10;a++)
-    {
-        tablica[2][a]=3*a+3;
-        printf("%d\t",tablica[2][a]);
-    }
-    printf("\n");
-
-    for(a=0;a<10;a++)
-    {
-        tablica[3][a]=4*a+4;
-        printf("%d\t",tablica[3][a]);
+        for(b=0;b<10;b++)
+        {
+            tablica[0][b]=b+1;
+            tablica[1][b]=2*b+2;
+            tablica[2][b]=3*b+3;
+            tablica[3][b]=4*b+4;
+            printf("%d\t",tablica[a][b]);
+            if(b==9)
+            {
+                printf("\n");
+            }
+        }
     }
     printf("\n\n");
 
     /*-----------------------------------------*/
 
-    int b=0;
-    for(a=0;a<10;a++)
+    int c=0;
+    for(a=0;a<4;a++)
     {
-        tablica[0][a]=++b;
-        printf("%d\t",tablica[0][a]);
-    }
-    printf("\n");
-
-    for(a=0;a<10;a++)
-    {
-        tablica[1][a]=++b;
-        printf("%d\t",tablica[1][a]);
-    }
-    printf("\n");
-
-    for(a=0;a<10;a++)
-    {
-        tablica[2][a]=++b;
-        printf("%d\t",tablica[2][a]);
-    }
-    printf("\n");
-
-    for(a=0;a<10;a++)
-    {
-        tablica[3][a]=++b;
-        printf("%d\t",tablica[3][a]);
+        for(b=0;b<10;b++)
+        {
+            tablica[a][b]=++c;
+            printf("%d\t",tablica[a][b]);
+            if(b==9)
+            {
+                printf("\n");
+            }
+        }
     }
     printf("\n\n");
 
