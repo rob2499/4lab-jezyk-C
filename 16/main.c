@@ -27,13 +27,13 @@ int main()
 
     /*-----------------------------------------*/
 
-    int i=0;
-    for(a=2;a<n;a++)
+    int i,j;
+    for(i=0;1<=i;i++)
     {
-        if(1<=i)
+        for(j=0;j<n;j++)
         {
-            Macierz[i][a] = Macierz[i-1][a] + Macierz[i-1][a-1];
-            printf("%d",Macierz[i][a]);
+            Macierz[i][j] = Macierz[i-1][j] + Macierz[i-1][j-1];
+            printf("%d",Macierz[i][j]);
         }
     }
     return 0;
