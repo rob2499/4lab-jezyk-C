@@ -105,22 +105,22 @@ int main()
 
     for(a=0;a<10;a++)
     {
-        tablica[0][a]=++b;
-        printf("%d\t",tablica[0][a]);
+        tablica[1][a]=++b;
+        printf("%d\t",tablica[1][a]);
     }
     printf("\n");
 
     for(a=0;a<10;a++)
     {
-        tablica[0][a]=++b;
-        printf("%d\t",tablica[0][a]);
+        tablica[2][a]=++b;
+        printf("%d\t",tablica[2][a]);
     }
     printf("\n");
 
     for(a=0;a<10;a++)
     {
-        tablica[0][a]=++b;
-        printf("%d\t",tablica[0][a]);
+        tablica[3][a]=++b;
+        printf("%d\t",tablica[3][a]);
     }
     printf("\n\n");
 
