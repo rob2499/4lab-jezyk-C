@@ -13,7 +13,7 @@ int main()
         {
             break;
         }
-        if(lancuch[a+1]==0)
+        if(lancuch[a+1]=='\0')
         {
             printf("%c",lancuch[a]);
         }
