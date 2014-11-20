@@ -28,7 +28,7 @@ int main()
 {
     char napis[20];
     printf("Podaj jakies slowo: \n");
-    scanf("%s",napis);
+    scanf("%[^\n]s",napis);
 
     odwrotnosc(napis);
     return 0;
