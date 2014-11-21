@@ -22,7 +22,7 @@ int main()
     }
 
     int srodek;
-    srodek=iloscznakow/2+1;
+    srodek=(iloscznakow+1)/2;
 
     for(a=0;a<iloscznakow;a++)
     {
